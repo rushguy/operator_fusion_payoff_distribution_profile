@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rushguy-annotate_jd443"
+name = "rushguy-operator_fusion_payoff_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别标注平台与数据质量工程师·算子融合的收益边界上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://rushguy.github.io"
-Repository = "https://github.com/rushguy/annotate_jd443"
-Issues = "https://github.com/rushguy/annotate_jd443/issues"
+Repository = "https://github.com/rushguy/operator_fusion_payoff_distribution_profile"
+Issues = "https://github.com/rushguy/operator_fusion_payoff_distribution_profile/issues"
 
 [project.scripts]
-annotate_jd443 = "annotate_jd443:main"
+operator_fusion_payoff_distribution_profile = "operator_fusion_payoff_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["annotate_jd443"]
+py-modules = ["operator_fusion_payoff_distribution_profile"]
